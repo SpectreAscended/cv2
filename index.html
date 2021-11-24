@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -23,7 +24,7 @@
   </div>
   <div class="middle-container">
     <div class="profile">
-      <img src="images\ProfilePicture.png" alt="profile-img">
+      <img class="profilePicture" src="images\ProfilePicture.png" alt="profile-img">
       <h2>Hello.</h2>
       <p>I am Cory Pollard, truck driver and aspiring web developer.</p>
     </div>
@@ -32,13 +33,13 @@
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="coding" src="images\coding.jpg" alt="coding-img">
-        <h3>Coding Languages</h3>
-        <p>HTML, CSS, Bootstrapper, Javascript, Python</p>
+        <h3>Web Development</h3>
+        <p class="skillText">Currently learning HTML, CSS, Bootstrapper, Javascript, Python. I have completed the Google IT Support Professional Certificate.</p>
       </div>
-      <div class="skill-row">
+      <div class="skill-row2">
         <img class="trucking" src="images\trucking.jpg" alt="trucking-img">
         <h3>Other skills</h3>
-        <p>1A license.  I have been trucking since 2010.  I have hauled freight in dryvans/reefers, flat deck, <br /> gravel, heavy equipment and livestock feed.</p>
+        <p>1A license. I have been trucking since 2010. I have hauled freight in dry vans/reefers, flat deck. I've also hauled gravel, heavy equipment and livestock feed.</p>
       </div>
     </div>
     <hr>
@@ -46,17 +47,24 @@
       <h2>Get In Touch</h2>
       <h3>Do you need a website designed?</h3>
       <p>Mailing address: 500, 172st st Saskatoon, SK Phone: 555-555-5555</p>
-      <a class="btn" href="mailto:astandard87@gmail.com">CONTACT ME</a>
+      <!-- <a class="btn" href="mailto:astandard87@gmail.com">CONTACT ME</a> -->
+
+
+      <form action="mailto:astandard87@gmail.com" method="post" enctype="text/plain">
+
+        <button class="btn" type="submit">CONTACT ME</button>
+      </form </div>
     </div>
-  </div>
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.youtube.com/watch?v=si9pyKsJP8g&t=16s">Website</a>
-    <p>© Cory Pollard.</p>
-  </div>
+    <div style=" padding: 30px 0 20px 0; line-height: 2;" class="bottomBox">
+
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.youtube.com/watch?v=si9pyKsJP8g&t=16s">Website</a>
+      <p class="footerName">© 2021 Cory Pollard.</p>
+    </div>
+
 
 
 </body>
